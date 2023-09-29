@@ -1,0 +1,7 @@
+:root{
+    --max-width-size:1920px;
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+    --primary-color: hsl(257, 40%, 49%);
+    --icon-hover-color: hsl(300, 69%, 71%);
+}
