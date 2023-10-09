@@ -1,0 +1,74 @@
+@media (max-width: --max-width-size){
+    body{
+        max-width: var(--desktop-width);
+        gap: 0;
+    }
+}
+
+@media (max-width: 425px){
+    .header{
+        max-width: var(--mobile-width);
+        margin: 20px 20px;
+        gap: 0;
+    }
+
+    .header img{
+         width: 40%;
+         gap: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .about {
+        max-width: var(--mobile-width);
+        flex-wrap: wrap;
+    }
+
+    .about .image{
+       width: 80%;
+       margin: 30px 40px;
+    }
+
+    .about .info{
+       margin: 10px 10px;
+    }
+
+    .about .info h2{
+       font-size: 2rem;
+       text-align: center;
+    }
+
+    .about .info p{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .about .btn{
+        font-size: 1.2rem;
+        margin: 30px;
+        text-align: center;
+    }
+
+    body{
+        background: url(../images/bg-mobile.svg)  no-repeat;
+        background-color: var(--primary-color);
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer {
+      max-width: var(--mobile-width);
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-left: 190px;
+    }
+
+    .footer .social{
+        text-align: center;
+    
+    }
+}
