@@ -1,9 +1,9 @@
-/* @media (max-width: --max-width-size){
+@media (max-width: --max-width-size){
     body{
         max-width: var(--desktop-width);
         gap: 0;
     }
-} */
+}
 
 @media (max-width: 425px){
     .header{
