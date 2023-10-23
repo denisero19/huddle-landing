@@ -22,31 +22,36 @@
     .about {
         max-width: var(--mobile-width);
         flex-wrap: wrap;
+        gap: 0;
     }
 
     .about .image{
-       width: 80%;
-       margin: 30px 40px;
+       max-width: var(--mobile-width);
+       width: 70%;
+       margin: 30px 45px;
     }
 
     .about .info{
-       margin: 10px 10px;
+       margin: 15px 15px;
+       padding: 15px 15px;
+       max-width: 500px;
     }
 
     .about .info h2{
-       font-size: 2rem;
+       font-size: 3.5rem;
        text-align: center;
+       max-width: 500px;
     }
 
     .about .info p{
-        font-size: 1.3rem;
+        font-size: 2rem;
         text-align: center;
+        max-width: 500px;
     }
 
     .about .btn{
-        font-size: 1.2rem;
-        margin: 30px;
-        text-align: center;
+        font-size: 1.5rem;
+        margin: 15px auto 15px;
     }
 
     body{
@@ -62,13 +67,10 @@
     .footer {
       max-width: var(--mobile-width);
       justify-content: center;
-      align-items: center;
-      text-align: center;
-      margin-left: 190px;
+      margin: 10px auto 10px;
     }
 
-    .footer .social{
-        text-align: center;
-    
+    .footer .social a{
+        margin: 5px;
     }
 }
